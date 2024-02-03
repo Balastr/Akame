@@ -23,8 +23,8 @@ body {
     color: #3a3e64;
 }
 
-
 /********************** MENU *******************/
+
 .navigation {
     padding: 20px 0px;
     background-color: #f6f6f6;
@@ -40,9 +40,7 @@ body {
     text-decoration: none;
     color: #3a3e64;
 }
-
-.nav__item:hover,
-.active:hover {
+.nav__item:hover {
     text-decoration: none;
     color: #f48a97;
 }
@@ -59,18 +57,6 @@ body {
     width: 100%;
 }
 .nav__item:first-child {
-    margin-left: 0px;
-}
-
-.active {
-    border-bottom: 0.5px solid #f48a97;
-    margin-left: 50px;
-    text-decoration:none; 
-    display: inline-block;
-    text-decoration: none;
-    color: #f48a97;
-}
-.active {
     margin-left: 0px;
 }
 .menuToggle {
@@ -142,199 +128,73 @@ ul {
 
 /**************************************************/
 
+
+
 /********************** MAIN *******************/
-
+.active {
+    border-bottom: 0.5px solid #f48a97;
+    margin-left: 50px;
+    text-decoration:none; 
+    display: inline-block;
+    text-decoration: none;
+    color: #f48a97;
+}
+.active:hover {
+    text-decoration: none;
+    color: #f48a97;
+}
 .main {
-    padding: 150px 0px 80px;
-}
-.block__title {
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    font-weight: 200;
-    font-size: 50px;
-}
-.block__title:after{
-    display: block;
-    content: "";
-    height: 3px;
-    width: 100px;
-    margin: 20px 0px;
-    background: #f48a97;
-}
-.main__block2 {
-    position: relative;
-} 
-.about1 {
-    position: absolute;
-    top: -85px;
-    right: -70px;
-    box-shadow: 0 0 35px rgba(0, 0, 0, 0.13);
-    padding: 10px;
-    background: #fff;
-    z-index: 2;
-}
-.about2 {
-    position: absolute;
-    left: 0px;
-    top: 120px;
-    box-shadow: 0 0 35px rgba(0, 0, 0, 0.13);
-}
-/**************************************************/
-
-/********************** SERVICE *******************/
-
-
-.text {
-    color: #fff;
-    font-size: 40px;
-    margin-bottom: 40px;
-    text-transform: uppercase;
-    font-weight: 300;
-}
-.about__service {
-    background-image: url(../img/aboutSection.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 40%;
-    padding: 50px 0px 175px;
-}
-.as__block__wrapper {
-    width: 105px;
-    height: 105px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-.pink {
-    background-color: #f48a97;
-}
-.blue {
-    background-color: #67d9d3;
-}
-.yellow {
-    background-color: #e8da7e;
-}
-.icon {
-    color: #fff;
-    font-size: 50px;
-    padding-top: 13px;
-}
-.as__block__desc,
-.as__block__title {
-    color: #fff;
-}
-.as__block__title {
-    margin: 26px 0px 21px;
-    font-size: 24px;
-    text-transform: uppercase;
-}
-.as__block__desc {
-    font-size: 14px;
-    overflow : hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-}
-
-
-/**************************************************/
-
-/********************** certificates *******************/
-.certificates {
-    padding: 85px 0px;
+    padding: 70px 0px 70px;
 }
 .mb {
     margin-bottom: 30px;
 }
-.cert__title {
-    font-size: 40px;
-    text-transform: uppercase;
-    margin-bottom: 25px;
+.promo,
+.promo:hover {
+    text-decoration: none;
 }
-.cert__desc {
-    color: #888888;
-    margin-bottom: 70px;
-    font-size: 14px;
+.promo__block {
+    padding: 10px;
+}
+.promo__block:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+.img {
     width: 100%;
+    height: 220px;
 }
-.cert__img {
-    width: 100%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    transition: all 0.3s ease;
+.promo__date {
+    margin-top: 26px;
+    color: #aeaeae;
+    font-size: 18px;
 }
-.cert__img:hover {
-    transform: scale(1.04);
-
-}
-
-
-.studio {
-    padding: 85px 0px 85px;
-    background-image: url(../img/aboutSection.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 40%;
-}
-.studio__title {
-    color: #fff;
-    font-size: 40px;
-    text-transform: uppercase;
-    margin-bottom: 25px;
-}
-.studio__desc {
-    color: #888888;
-    margin-bottom: 70px;
-    font-size: 14px;
-    width: 100%;
-}
-.studio__img {
-    width: 100%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    transition: all 0.3s ease;
-}
-.studio__img:hover {
-    transform: scale(1.04);
-    border-bottom: 1px solid transparent;
-    border-right: 1px solid transparent;
-}
-
-
-.job {
-    background-color: #f48a97;
-    padding: 100px 0px;
-}
-.job__title,
-.job__text {
-    color: #fff;
-}
-.job__title {
-    text-transform: uppercase;
+.promo__title {
+    margin: 15px 0px 10px;
     font-weight: 600;
-    font-size: 60px;
-    margin-bottom: 20px;
-}
-.job__text {
-    font-size: 24px;
-    margin-bottom: 30px;
-}
-.job__btn {
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
-    padding: 10px 70px;
-    transition: color, 0.3s ease;
+    font-size: 26px;
+    line-height: 1.3;
     text-transform: uppercase;
+    color: #000;
+}
+.promo__desc {
+    color:#aeaeae;
+    font-size: 14px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.promo__button,
+.promo__button:hover {
+    text-decoration: none;
+    color: #fff;
     font-weight: 600;
-}
-.job__btn:hover {
-    background-color: #fff;
-    border: 1px solid #fff;
-    color: #f48a97;
+    text-transform: uppercase;
 }
 
-
+/**************************************************/
 
 /********************** FOOTER *******************/
 
@@ -395,6 +255,7 @@ ul {
     margin-right: 10px;
 }
 
+
 /**************** КНОПКА "НАВЕРХ" ***************/
 
 #button {
@@ -436,6 +297,8 @@ ul {
 
 
 
+
+
 @media (min-width: 1200px) {
 
 .menuToggle{
@@ -457,8 +320,9 @@ ul {
 }
 
 
-@media (max-width: 1199.98px) {
 
+
+@media (max-width: 1199.98px) {
 
 .login{
     right: 730px;
@@ -466,49 +330,18 @@ ul {
 .btn-group{
     right: 730px;
 }
+.nav__item, .active {
+    margin-left: 27px;;
+}
+.promo__title {
+    font-size: 17px;
+}
 .header {
     background-position: 40% 50%;
 }
-.block__title {
-    text-align: center;
-}
-.block__title:after {
-    margin: 0 auto;
-    margin-top: 10px;
-}
-.block__subtitle {
-    text-align: center;
-}
-.main {
-    padding-bottom: 500px;
-}
-.about1,
-.about2 {
-    width: 40%;
-}
-.about1 {
-    top: 60px;
-    right: 0px;
-}
-.about2 {
-    top: 60px;
-    left: 0px;
-}
-.nav__item {
-    margin-left: 27px;
-}
-.as__block__title {
-    font-size: 20px;
-}
-.as__block__desc {
-    overflow : hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-}
 
 }
+
 
 
 
@@ -522,14 +355,9 @@ ul {
     right: 70px;
     top: 25px;
 }
-#button {
-    right: 100px;
-}
-
 .header {
     background-position: 60% 50%;
 }
-
 .nav, .active {
     font-size: 14px;
     display: flex;
@@ -551,69 +379,26 @@ ul {
 .menuToggle{
     display: block;
 }
-.job__title {
-    font-size: 40px;
-}
-.job__text {
-    font-size: 20px;
+.active {
+    margin: 0px;
 }
 
 }
-
-@media (max-width: 767.98px) {
-
-#button {
-    display: none;
-}
-.main {
-    padding-top: 50px;
-    padding-bottom: 650px;
-}
-.about1, .about2 {
-    width: 80%;
-}
-.about1 {
-    top: 350px;
-    right: 43px;
-}
-.about2 {
-    left: 60px;
-}
-.text {
-    margin-bottom: 80px;
-}
-.as__block__title {
-    font-size: 16px;
-}
-.cert__img,
-.studio__img {
-    margin-top: 40px;
-}
-.footer__title {
-    font-size: 16px;
-}
-.footer__text {
-    font-size: 12px;
-}
-.job__title {
-    font-size: 30px;
-}
-.job__text {
-    font-size: 16px;
-}
-
-}
-
 
 
 
 @media (max-width: 575.98px) {
 
+#button {
+    display: none;
+}
 .nav__item, .active {
     font-size: 14px;
 }
-.as__block {
-    margin-top: 40px;
+
+.promo__block {
+    width: 300px;
+    margin: 0 auto;
 }
 .footer {
     text-align: center;
@@ -625,37 +410,6 @@ ul {
 .footer__social {
     justify-content: center;
 }
-
-}
-
-
-
-@media (max-width: 480px) {
-
-
-.nav__item,
-.active {
-    font-size: 14px;
-}
-.block__title {
-    font-size: 35px;
-}
-.block__subtitle {
-    font-size: 13px;
-}
-.about1, .about2 {
-    width: 100%;
-}
-.about1 {
-    top: 300px;
-    left: 0px;
-}
-.about2 {
-    left: 0px;
-}
-
-.cert__title {
-    font-size: 35px;
 }
 
 
@@ -668,7 +422,3 @@ ul {
 
 
 
-
-
-
-}

@@ -1,0 +1,16 @@
+.btn-group {
+    display:none;
+    position: absolute;
+    top: 20px;
+    right: -130px;
+}
+.btn-login {
+    text-decoration:none; 
+    display: inline-block;
+    text-decoration: none;
+    color: #3a3e64;
+}
+.btn-login:hover {
+    text-decoration: none;
+    color: #3a3e64;
+}
