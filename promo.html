@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!------------- ПОДКЛЮЧЕНИЕ СТИЛЕЙ БУТСТРАПА ------------------>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+    <!------------- ШРИФТ ------------------>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!------------- СТИЛИ ------------------>
+    <link rel="stylesheet" href="css/promo.css">
+
+    <title>Студия красоты Akame</title>
+  </head>
+  <body>
+
+
+    <!-- Кнопка "наверх" -->
+    <a id="button"></a>  
+
+
+    <!------------- МЕНЮ ------------------>
+    <header class="navigation" id="header">
+      <div class="container">
+        <div class="navigation__wrapper">
+          <div class="row">
+            <div class="col-md-12 col-lg-3 col-xl-3">
+              <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <div class="col-lg-9 col-xl-9">
+              <div class="menuToggle">&#9776;</div>
+              <nav class="nav justify-content-end">
+                <a href="about.html" class="nav__item">О нас</a>
+                <a href="index.html#service" class="nav__item">Услуги</a>
+                <a href="index.html#team" class="nav__item">Специалисты</a>
+                <a href="index.html#price" class="nav__item">Цены</a>
+                <a href="index.html#online" class="nav__item">Онлайн-запись</a>
+                <a href="promo.html" class="active">Акции</a>
+                <a href="index.html#contacts" class="nav__item">Контакты</a>
+              </nav>
+              <a href="login.html" onclick="checkPage()" class="login" id="button-login">Войти</a>
+            </div>
+          </div>
+
+          <div class="btn-group">
+            <a href="#" class="btn-login  dropdown-toggle" id="userName" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              admin
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Профиль</a>
+              <a class="dropdown-item" href="#">Настройки</a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item" id="profileExit">Выход</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <header class="header">
+        <div class="container">
+            <h2 class="title">Акции</h2>
+        </div>
+    </header>
+
+    <div class="option">
+        <div class="container">
+            <div class="menu2">
+                <ul>
+                    <li><a href="index.html" class="menu2__item__home">Главная</a></li>
+                    <li class="menu2__item">Акции</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="main">
+        <div class="container">
+            <div class="row mb">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                    <a href="#" class="promo">
+                        <div class="promo__block">
+                            <div class="promo__img">
+                                <img class="img" src="img/promo/promo1.jpg" alt="promo1">
+                            </div>
+                            <div class="promo__date">16.03.2020</div>
+                            <div class="promo__title">закрываем сезон фотопроцедур!</div>
+                            <div class="promo__desc">С 16 по 31 марта 2020 года скидка 20% * на процедуры фототерапии , выполненные на
+                            аппарате IPL Quantum.</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                    <a href="#" class="promo">
+                        <div class="promo__block">
+                            <div class="promo__img">
+                                <img class="img" src="img/promo/promo2.jpg" alt="promo1">
+                            </div>
+                            <div class="promo__date">25.02.2020</div>
+                            <div class="promo__title">День рождени</div>
+                            <div class="promo__desc">Именинникам в ПОДАРОК СКИДКА 15%! На 1 визит в течение 7 дней до и после Даты Рождения!
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                    <a href="#" class="promo">
+                        <div class="promo__block">
+                            <div class="promo__img">
+                                <img class="img" src="img/promo/promo3.jpg" alt="promo1">
+                            </div>
+                            <div class="promo__date">24.01.2020</div>
+                            <div class="promo__title">«Абсолютное Счастье для волос»</div>
+                            <div class="promo__desc">СПА уход волос со скидкой 15%</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                  <a href="#" class="promo">
+                      <div class="promo__block">
+                          <div class="promo__img">
+                              <img class="img" src="img/promo/promo4.jpg" alt="promo1">
+                          </div>
+                          <div class="promo__date">07.12.2019</div>
+                          <div class="promo__title">Присоединяйтесь к нам!</div>
+                          <div class="promo__desc">Подписывайтесь на наш Инстаграм @instagram И получайте скидку 5% на любые услуги при записи через Директ!</div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                  <a href="#" class="promo">
+                      <div class="promo__block">
+                          <div class="promo__img">
+                              <img class="img" src="img/promo/promo5.jpg" alt="promo1">
+                          </div>
+                          <div class="promo__date">01.09.2019</div>
+                          <div class="promo__title">«Савеловский Сити»</div>
+                          <div class="promo__desc">Жителям Жилого Комплекса «Савеловский Сити» весь сентябрь скидка 10% на все услуги!</div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                  <a href="#" class="promo">
+                      <div class="promo__block">
+                          <div class="promo__img">
+                              <img class="img" src="img/promo/promo6.jpg" alt="promo1">
+                          </div>
+                          <div class="promo__date">11.07.2019</div>
+                          <div class="promo__title">Приди на стрижку с другом и заплати 50%</div>
+                          <div class="promo__desc">Приди на стрижку с другом и заплати 50% от стоимости стрижки</div>
+                      </div>
+                  </a>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------- ФУТЕР ------------------>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="footer__title">
+              <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="footer__text">
+              Мы будем рады видеть Вас в нашем салоне
+              <br><br>©2020 Все права защищены
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="footer__title">
+              Время работы
+            </div>
+            <div class="footer__text">
+              Понедельник-Пятница: 10.00 - 22.00<br>
+              Суббота-Воскресенье: 10.00 - 19.00
+            </div>
+            <div class="footer__social">
+              <a href="https://vk.com/" class="social vk">
+                <i class="fa fa-vk" aria-hidden="true"></i>
+              </a>
+              <a href="https://twitter.com/" class="social twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="https://instagram.com." class="social inst">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="footer__title">
+              Контакты
+            </div>
+            <div class="footer__text">
+              <i class="fa fa-phone" aria-hidden="true"></i>Tel: +7 (345) 678 910<br>
+              <i class="fa fa-envelope" aria-hidden="true"></i>E-mail: hello@gmail.com<br>
+              <i class="fa fa-location-arrow" aria-hidden="true"></i>Адрес: г. Ярославль, ул. Пушкина, 1
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="button.js"></script>
+    <script src="profile.js"></script>
+    <script src="login.js"></script>
+
+    <script>
+      // показ профиля
+      $(document).ready(function(){
+          let url = window.location;
+          let role = url.search;
+          let user = role.substr(12);
+        if(user == ''){
+          checkProfile();
+        }
+        if(user == ){
+          let admin = document.querySelector('.btn-group');
+          document.querySelector('#button-login').style.display = "none";
+          admin.style.display = "block";
+          let name = 'admin';
+          localStorage.setItem("user", name);
+        }
+        if((user != 1) && (user != '')){
+          $('#userName').html(user);
+          let admin = document.querySelector('.btn-group');
+          document.querySelector('#button-login').style.display = "none";
+          admin.style.display = "block";
+          localStorage.setItem("user", user);
+        }
+      })
+
+      // ------------------------
+
+      // выход из профиля
+
+      $("#profileExit").click(function(){
+        localStorage.removeItem('user');
+        let url = 'index.html';
+        location.href = url;
+      })
+
+      // --------------------------
+    </script>
+  </body>
+</html>

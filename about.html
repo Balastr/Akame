@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!------------- ПОДКЛЮЧЕНИЕ СТИЛЕЙ БУТСТРАПА ------------------>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+    <!------------- ШРИФТ ------------------>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!------------- СТИЛИ ------------------>
+    <link rel="stylesheet" href="css/about.css">
+
+    <title>Студия красоты Akame</title>
+  </head>
+  <body>
+
+
+    <!-- Кнопка "наверх" -->
+    <a id="button"></a>  
+
+
+    <!------------- МЕНЮ ------------------>
+    <header class="navigation" id="header">
+      <div class="container">
+        <div class="navigation__wrapper">
+          <div class="row">
+            <div class="col-md-12 col-lg-3 col-xl-3">
+              <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <div class="col-md-12 col-lg-9 col-xl-9">
+                <div class="menuToggle">&#9776;</div>
+                <nav class="nav justify-content-end">
+                    <a href="about.html" class="active">О нас</a>
+                    <a href="index.html#service" class="nav__item">Услуги</a>
+                    <a href="index.html#team" class="nav__item">Специалисты</a>
+                    <a href="index.html#price" class="nav__item">Цены</a>
+                    <a href="index.html#online" class="nav__item">Онлайн-запись</a>
+                    <a href="promo.html" class="nav__item">Акции</a>
+                    <a href="index.html#contacts" class="nav__item">Контакты</a>
+              </nav>
+              <a href="login.html" onclick="checkPage()" class="login" id="button-login">Войти</a>
+            </div>
+          </div>
+
+          <div class="btn-group">
+            <a href="#" class="btn-login  dropdown-toggle" id="userName" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              admin
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Профиль</a>
+              <a class="dropdown-item" href="#">Настройки</a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item" id="profileExit">Выход</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <header class="header">
+        <div class="container">
+            <h2 class="title">О нас</h2>
+        </div>
+    </header>
+
+    <div class="option">
+        <div class="container">
+            <div class="menu2">
+                <ul>
+                    <li><a href="index.html" class="menu2__item__home">Главная</a></li>
+                    <li class="menu2__item">О нас</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="main__block">
+                        <div class="block__title">
+                            Почему нас выбирают
+                        </div>
+                        <div class="block__subtitle">
+                            Мы готовы подарить нашим клиентам удобные залы для процедур и ожидания, превосходные и современные стрижки и укладки, чарующий эффект после наращивания ресниц, компетентные и профессиональные лечебные массажные и косметологические услуги, невероятно расслабляющие педикюрные процедуры, неповторимый маникюрный и ногтевой сервис.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="main__block2">
+                        <img class="about1" src="img/aboutblock.jpg" alt="about1">
+                        <img class="about2" src="img/aboutblock2.jpg" alt="about2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about__service">
+        <div class="container text-center">
+            <h2 class="text">Мы предлагаем</h2>
+            <div class="row">
+                
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <div class="as__block">
+                        <div class="as__block__wrapper pink">
+                            <p class="icon"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></p>                           
+                        </div>
+                        <p class="as__block__title">Лучшие специалисты</p>
+                        <p class="as__block__desc">Мы собрали лучших специалистов своего дела. Качество и профессионализм главный критерий выбора. Мы боролись за каждого специалиста и в итоге получили, кого хотели</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <div class="as__block">
+                        <div class="as__block__wrapper blue">
+                            <p class="icon"><i class="fa fa-sitemap" aria-hidden="true"></i></p>
+                        </div>
+                        <p class="as__block__title">Большой выбор услуг</p>
+                        <p class="as__block__desc">Мы всегда заботимся о потребностях наших клиентов. На сегодняшний день мы предоставляем более 200 качественных и профессиональных услуг</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <div class="as__block">
+                        <div class="as__block__wrapper yellow">
+                            <p class="icon"><i class="fa fa-venus-mars" aria-hidden="true"></i></p>
+                        </div>
+                        <p class="as__block__title">Для неё и для него</p>
+                        <p class="as__block__desc">Девушка Вы или мужчина, ребенок или пенсионер – мы всегда найдем чем Вас порадовать и удивить. Приходите всей семьёй – Вы точно будете довольны</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="certificates">
+        <div class="container text-center">
+            <h2 class="cert__title">Сертификаты, Дипломы Наших Мастеров</h2>
+            <p class="cert__desc">Все наши мастера высоко квалифицированные специалисты. Мы постоянно заботимся, что бы они повышали свою квалификацию, участвовали в конкурсах и мастер-классах. Это дает нам возможность быть на пике моды и быть лучшими в индустрии.</p>
+            <div class="row mb">
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="img/dip/dip1.jpg" target="_blank"><img class="cert__img" src="img/dip/dip1.jpg" alt="dip1"></a>
+                </div>
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="img/dip/dip2.jpg" target="_blank"><img class="cert__img" src="img/dip/dip2.jpg" alt="dip1"></a>
+                </div>
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="img/dip/dip3.jpg" target="_blank"><img class="cert__img" src="img/dip/dip3.jpg" alt="dip1"></a>
+                </div>
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="img/dip/dip4.jpg" target="_blank"><img class="cert__img" src="img/dip/dip4.jpg" alt="dip1"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="img/dip/dip5.jpg" target="_blank"><img class="cert__img" src="img/dip/dip5.jpg" alt="dip1"></a>
+                </div>
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="img/dip/dip6.jpg" target="_blank"><img class="cert__img" src="img/dip/dip6.jpg" alt="dip1"></a>
+                </div>
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="img/dip/dip7.jpg" target="_blank"><img class="cert__img" src="img/dip/dip7.jpg" alt="dip1"></a>
+                </div>
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="img/dip/dip8.jpg" target="_blank"><img class="cert__img" src="img/dip/dip8.jpg" alt="dip1"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="studio">
+        <div class="container text-center">
+            <h2 class="studio__title">Наша Студия</h2>
+            <div class="row mb">
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="img/studio/studio1.jpg" target="_blank"><img class="studio__img" src="img/studio/studio1.jpg" alt="dip1"></a>
+                </div>
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="img/studio/studio2.jpg" target="_blank"><img class="studio__img" src="img/studio/studio2.jpg" alt="dip1"></a>
+                </div>
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="img/studio/studio3.jpg" target="_blank"><img class="studio__img" src="img/studio/studio3.jpg" alt="dip1"></a>
+                </div>
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="img/studio/studio4.jpg" target="_blank"><img class="studio__img" src="img/studio/studio4.jpg" alt="dip1"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="job">
+        <div class="container text-center">
+            <p class="job__title">
+                Хотите у Нас Работать?
+            </p>
+            <p class="job__text">
+                Если Вы ищите интересную, перспективную работу в индустрии красоты. Вы полны желания развиваться в нашем динамичном профессиональном коллективе. Напишите, позвоните или приходите к нам на кофе :) Мы всегда Вам рады.
+            </p>
+            <a href="index.html#contacts"><button class="job__btn">Контакты</button></a>
+        </div>
+    </section>
+
+
+    <!------------- ФУТЕР ------------------>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="footer__title">
+              <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="footer__text">
+              Мы будем рады видеть Вас в нашем салоне
+              <br><br>©2020 Все права защищены
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="footer__title">
+              Время работы
+            </div>
+            <div class="footer__text">
+              Понедельник-Пятница: 10.00 - 22.00<br>
+              Суббота-Воскресенье: 10.00 - 19.00
+            </div>
+            <div class="footer__social">
+              <a href="https://vk.com/" class="social vk">
+                <i class="fa fa-vk" aria-hidden="true"></i>
+              </a>
+              <a href="https://twitter.com/" class="social twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="https://instagram.com/" class="social inst">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="footer__title">
+              Контакты
+            </div>
+            <div class="footer__text">
+              <i class="fa fa-phone" aria-hidden="true"></i>Tel: +7 (345) 678 910<br>
+              <i class="fa fa-envelope" aria-hidden="true"></i>E-mail: hello@gmail.com<br>
+              <i class="fa fa-location-arrow" aria-hidden="true"></i>Адрес: г. Ярославль, ул. Пушкина, 1
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="button.js"></script>
+    <script src="profile.js"></script>
+    <script src="login.js"></script>
+    <script>
+              // показ профиля
+      $(document).ready(function(){
+          let url = window.location;
+          let role = url.search;
+          let user = role.substr(12);
+        if(user == ''){
+          checkProfile();
+        }
+        if(user == ){
+          let admin = document.querySelector('.btn-group');
+          document.querySelector('#button-login').style.display = "none";
+          admin.style.display = "block";
+          let name = '';
+          localStorage.setItem("user", name);
+        }
+        if((user != 1) && (user != '')){
+          $('#userName').html(user);
+          let admin = document.querySelector('.btn-group');
+          document.querySelector('#button-login').style.display = "none";
+          admin.style.display = "block";
+          localStorage.setItem("user", user);
+        }
+      })
+
+      // ------------------------
+
+      // выход из профиля
+
+      $("#profileExit").click(function(){
+        localStorage.removeItem('user');
+        let url = 'index.html';
+        location.href = url;
+      })
+
+      // --------------------------
+    </script>
+
+  </body>
+</html>
